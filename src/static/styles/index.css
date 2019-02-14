@@ -67,11 +67,6 @@ h1{
     text-align: center; 
 }
 
-.bio-image img { 
-    width: 400px;
-    height: 400px;
-}
-
 .bio-content { text-align: left; }
 
 .bio-content p {
@@ -81,7 +76,6 @@ h1{
 
 .hr{
   height: 1px; 
-  background-color: darkgray;
+  background-color: lightgray;
   margin-top: 50px;
 }
-
