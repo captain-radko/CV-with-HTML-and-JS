@@ -5,21 +5,6 @@ body {
     background-color: white;
 }
 
-.navbar-header{
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #151515;
-    height: 50px;
-}
-
-div ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    margin: 0 1em;
-}
-
 #prof{
     width: 500px;
     height: 500px;
@@ -28,10 +13,6 @@ div ul li a {
 
 h1{
     text-align: center;
-}
-
-.card{
-    margin-top: 100px;
 }
 
 .portfolio {
@@ -46,7 +27,9 @@ h1{
     box-shadow: 0px 0px 4px 0px #545b62;
 }
 
-.heading img { width: 10%; }
+.heading img { 
+    width: 10%; 
+}
 
 .bio-info {
     padding: 5%;
@@ -67,7 +50,9 @@ h1{
     text-align: center; 
 }
 
-.bio-content { text-align: left; }
+.bio-content { 
+    text-align: left; 
+}
 
 .bio-content p {
     font-weight: 600;
@@ -77,4 +62,8 @@ h1{
 .hr{
   height: 1px; 
   background-color: lightgray;
+}
+
+.break{
+    word-break: break-all;
 }
